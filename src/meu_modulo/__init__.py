@@ -1,0 +1,1 @@
+# torna 'meu_modulo' um pacote Python
