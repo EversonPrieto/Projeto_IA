@@ -1,9 +1,12 @@
 [project]
-name = "projeto-ia"
+name = "contador-pessoas"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.10"
+description = "Um contador de pessoas em tempo real com YOLOv8 e DeepSort."
+requires-python = ">=3.8"
+
 dependencies = [
-    "numpy>=2.2.6",
+    "opencv-python",
+    "ultralytics",
+    "deep-sort-realtime",
+    "setuptools"
 ]

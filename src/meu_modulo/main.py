@@ -14,8 +14,8 @@ entradas = 0
 saidas = 0
 ids_cruzaram = {}
 
-SCORE_THRESHOLD = 0.35  # Aumente para reduzir falsos positivos
-MIN_BOX_AREA = 400     # Ajuste conforme o vídeo (largura*altura mínima)
+SCORE_THRESHOLD = 0.35
+MIN_BOX_AREA = 400
 
 while True:
     ret, frame = cap.read()
