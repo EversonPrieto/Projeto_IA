@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/contador_pessoas.egg-info/PKG-INFO
+src/contador_pessoas.egg-info/SOURCES.txt
+src/contador_pessoas.egg-info/dependency_links.txt
+src/contador_pessoas.egg-info/requires.txt
+src/contador_pessoas.egg-info/top_level.txt
+src/meu_modulo/__init__.py
+src/meu_modulo/contador_logic.py
+tests/test_contador_logic.py
