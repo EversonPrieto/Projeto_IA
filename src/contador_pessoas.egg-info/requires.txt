@@ -1,7 +1,0 @@
-opencv-python
-ultralytics
-deep-sort-realtime
-setuptools
-
-[dev]
-pytest>=8.3.5

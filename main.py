@@ -12,9 +12,6 @@ SCORE_THRESHOLD = 0.35
 MIN_BOX_AREA = 400
 
 def run_tracker(video_path, line_y, no_display=False, max_frames=None):
-    """
-    Função principal que executa o rastreador de pessoas e a contagem.
-    """
     model = YOLO(MODEL_PATH)
     tracker = DeepSort(max_age=90)
     

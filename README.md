@@ -24,7 +24,7 @@ Este comando lerá o `pyproject.toml` e instalará exatamente as dependências l
 Se precisar "Consertar" o Ambiente
 Para garantir que o seu ambiente sempre saiba onde está seu código, você pode "instalar" seu projeto em modo editável.
 ```
-uv pip install -e
+uv pip install -e .
 ```
 
 ## Utilização
